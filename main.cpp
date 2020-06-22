@@ -7,7 +7,7 @@ int main()
 	//gets input
 	cout << "Enter the string you would like to be turned into a pyramid" << endl;
 	string input;
-	cin >> input;
+	getline(cin, input);
 	//handles how many spaces to put before each line
 	int spaces = input.size() - 1;
 	//layerNum keeps track of the pyramid layer the loop is currently on. 1 is the top, bottom = the string's length
